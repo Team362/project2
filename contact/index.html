@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" class="hasjs">
+  <head>
+    <title>Contact | ISUD</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="screen" href="../css/reset.css">
+    <link rel="stylesheet" media="screen" href="../css/screen.css">
+    <script src="js/site.js" async></script>
+  </head>
+  <body>
+    <header>
+      <div id="logo">
+        <img src="../images/ISUD_logo.png" alt="ISUD Logo">
+        <h1>The International Society for Universal Dialogue</h1>
+      </div>
+      <h2>Contact Us</h2>
+      <nav id="navigation">
+        <ul>
+          <li><a href="../">Home</a></li>
+          <li><a href="../about_us/">About Us</a></li>
+          <li><a href="../announcements/">ISUD Announcements and Events</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <p>
+      Thank you for your interest in ISUD.
+      To contact us please reach us via:
+    </p>
+    <form name="newsLetter" method="get" autocomplete="on" action="#null">
+      <div id="error">Some or all necessary fields are missing. Necessary fields are marked with *</div>
+      <ol>
+        <li>
+          <input type="text" name="name_field" placeholder="Name *">
+        </li>
+        <li>
+          <input type="email" name="email_field" placeholder="Email *">
+        </li>
+        <li>
+          <input type="text" name="submit_field" placeholder="Subject">
+        </li>
+        <li>
+          <input type="text" id="msg-field" name="message_field" placeholder="Message">
+        </li>
+        <li>
+          <input type="submit" id="submit-btn" name="submitBtn" onclick="checkRequirements()" value="Sign Up">
+        </li>
+     </ol>
+    </form>
+    <footer>
+      <ul>
+        <li>Facebook</li>
+        <li>Google+</li>
+        <li>LinkedIn</li>
+      </ul>
+    </footer>
+  </body>
+</html>
