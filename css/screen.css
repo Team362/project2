@@ -1,8 +1,5 @@
 /* 
-
 Martin Grill Poblete -> Contact Page
-
-
 */
 
 html {
@@ -10,6 +7,7 @@ html {
   /* Using this color pallette: http://paletton.com/#uid=12P0u0ksHdg00X4rbrx003bpg7m */
   background-color: white;
   font-size: 1.331em; /* 1.313em @ 16 */
+  overflow-x: hidden;
 }
 
 #logo {
@@ -26,7 +24,7 @@ nav {
 body {
   /*using 21px @ 1.333 ratio modular scale https://www.modularscale.com/?21&px&1.333*/
   font-size: 1em;/* 1.75em @ 16*/
-  line-height: 1.333em; 
+  line-height: 1.333em;
 }
 
 h1 {
@@ -76,4 +74,102 @@ footer {
   color: white;
   text-align: right;
   padding: 1em;
+}
+
+#home h1, #home h2{
+  word-break: break-word;
+}
+
+#home h2{
+  background-color: white;
+  color: black;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#home{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#home main{
+  flex: 1;
+}
+
+#home h2 img{
+  height: 3em;
+  padding-right: 1em;
+}
+
+#home nav{
+  display: flex;
+  flex-direction: column;
+  border: 0;
+  background-color: rgba(51, 102, 153, 0.8);
+}
+
+#home nav a{
+  cursor: pointer;
+  color: white;
+  display: block;
+  padding: 0.5em 1em;
+}
+
+#home nav a:nth-child(1){
+  background-color: rgba(51, 102, 153);
+}
+
+#home nav a:hover{
+  background-color: rgba(51, 102, 153, 0.9);
+}
+
+#home main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0.8em 1em;
+}
+
+#home main article{
+  padding-right: 0.7em;
+}
+
+#home main article h1{
+  line-height: 1em;
+  padding-bottom: 0.3em;
+}
+
+#home main article p{
+  padding: 0;
+}
+
+#home main img{
+  padding: 0.5em;
+}
+
+#home footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6em;
+}
+
+#home footer a img{
+  height: 1.1em;
+}
+
+@media screen and (min-width: 800px) {
+  #home nav{
+    flex-direction: row;
+  }
+  #home main{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  #home main article{
+    width: 50%;
+  }
 }
