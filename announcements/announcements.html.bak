@@ -15,7 +15,6 @@
         <img src="../images/ISUD_logo.png" alt="ISUD Logo">
         <h1>The International Society for Universal Dialogue</h1>
       </div>
-      <h2>Contact Us</h2>
       <nav id="navigation">
         <ul>
           <li><a href="../">Home</a></li>
@@ -26,7 +25,6 @@
       </nav>
 	  </head>
 <body>
-
 <h2>Past Event </h2>
 
 <table>
