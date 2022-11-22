@@ -76,6 +76,25 @@ footer {
   padding: 1em;
 }
 
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+=======
+
 #home h1, #home h2{
   word-break: break-word;
 }
@@ -173,3 +192,4 @@ footer {
     width: 50%;
   }
 }
+
