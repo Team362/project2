@@ -200,3 +200,14 @@ nav a:hover{
     width: 50%;
   }
 }
+
+#about_list li { 
+  list-style-type: disc;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+}
+
+
+#about_list {
+  padding-left: 3em;
+}
