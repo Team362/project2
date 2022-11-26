@@ -21,6 +21,10 @@ nav {
   border: solid;
   border-color: black;
 }
+
+li {
+  list-style:none;
+}
 body {
   /*using 21px @ 1.333 ratio modular scale https://www.modularscale.com/?21&px&1.333*/
   font-size: 1em;/* 1.75em @ 16*/
