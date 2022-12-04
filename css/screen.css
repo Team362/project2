@@ -96,8 +96,6 @@ td, th {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
-</style>
-=======
 
 #home h1, #home h2{
   word-break: break-word;
@@ -202,6 +200,14 @@ nav a:hover{
   }
   #home main article{
     width: 50%;
+  }
+  
+  input {
+    font-size: 1em;
+    background-color: #003366;
+    color: white;
+    width: 50%;
+    border-color: white;
   }
 }
 
