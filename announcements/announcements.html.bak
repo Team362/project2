@@ -29,22 +29,6 @@
 	</div>
   
   <h1>International Society of Universal Dialog</h1>
-  
-	<nav id="main-nav"><!--NAVIGATION-->
-    <div class="dropdown">
-      <div class="dropbtn"> <a href="index.html">Home</a></div>
-	</div>
-    <div class="dropdown">
-      <div class="dropbtn">About Us</div>
-      <div class="dropdown-content">
-      </div>
-    </div>
-	<div class="dropdown">
-      <div class="dropbtn">Contact Us</div>
-      <div class="dropdown-content">
-      </div>
-    </div>
-  </nav>
 	<h2>Events</h2> <!--PAGE HEADER-->
   </header>
 	<!-- page code goes here -->	   
