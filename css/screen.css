@@ -80,7 +80,6 @@ footer {
   padding: 1em;
 }
 
-<style>
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
@@ -190,7 +189,19 @@ nav a:hover{
   height: 1.1em;
 }
 
-@media screen and (min-width: 800px) {
+#about_list li { 
+  list-style-type: disc;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+}
+
+
+#about_list {
+  padding-left: 3em;
+}
+
+
+@media screen and (min-width: 650px) {
   nav{
     flex-direction: row;
   }
@@ -201,23 +212,37 @@ nav a:hover{
   #home main article{
     width: 50%;
   }
+ 
+  form #submit-btn {
+    width: 60%;
+  }
   
   input {
     font-size: 1em;
     background-color: #003366;
     color: white;
-    width: 50%;
+    width: 80%;
     border-color: white;
   }
 }
 
-#about_list li { 
-  list-style-type: disc;
-  padding-bottom: 0.5em;
-  padding-top: 0.5em;
+
+@media screen and (min-width: 1000px) {
+  input {
+    width: 65%;
+  }
+  
+  form #submit-btn {
+    width: 30%;
+  }
 }
 
-
-#about_list {
-  padding-left: 3em;
+@media screen and (min-width: 1300px) {
+  input {
+    width: 40%;
+  }
+  
+  form #submit-btn {
+    width: 10%;
+  }
 }
