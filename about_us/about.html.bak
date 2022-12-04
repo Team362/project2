@@ -13,7 +13,7 @@
 <body>
   <header>
     <figure>
-      <img id="logo" src="assets/img/ISUD_Logo_color.jpg" alt="ISUD logo">
+      <img id="logo" src="images/isud_logo.png.jpg" alt="ISUD logo">
       <figcaption>
         <h1>The International Society for Universal Dialogue</h1>
       </figcaption>
@@ -30,7 +30,7 @@
     <article>
       <h2 id="abouth">About ISUD</h2>
       <div id="man-fig">
-        <img id="man" src="img/world.webp" alt="world peace">
+        <img id="man" src="images/world.webp" alt="world peace">
         <p id="mission">
           ISUD is a society of scholars, mostly philosophers, from many parts of the world,
           devoted to promoting international dialogue and the discussion of fundamental
@@ -50,7 +50,7 @@
           rights of cultural groups?</li>
       </ul>
       <div id="image-crop">
-        <img id="statue" src="img/oriental_statue.jpg" alt="cultural diversity and universality">
+        <img id="statue" src="images/oriental_statue.jpg" alt="cultural diversity and universality">
       </div>
       <h4 id="history">History and Goals:</h4>
       <p id="history-txt">
@@ -67,8 +67,8 @@
         interrelations of diverse cultures.
       </p>
       <div id="image-bottom">
-        <img id="monk" src="img/diverse cultures.jpg" alt="diverse cultures">
-        <img id="water" src="assets/img/egyption.jpg" alt="Egyptian Art and Archaeology">
+        <img id="monk" src="images/diverse cultures.jpg" alt="diverse cultures">
+        <img id="water" src="images/egyption.jpg" alt="Egyptian Art and Archaeology">
       </div>
     </article>
   </main>
@@ -78,7 +78,7 @@
       <a href="https://www.worldialogue.org/membership" class="menu">Membership</a>
     </p>
     <div class="footer-content-right">
-      <a href="https://github.com/Team362/project2"><img src="assets/img/github.jpeg"
+      <a href="https://github.com/Team362/project2"><img src="images/github.jpeg"
           class="icon-style" alt="Github icon"></a>
       <a href="https://www.gmail.com"><img src="assets/img/email.jpeg" class="icon-style" alt="Emailicon"></a>
     </div>

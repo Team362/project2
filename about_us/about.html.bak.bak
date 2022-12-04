@@ -5,8 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
   <title>About Us| International Society for Universal Dialogue</title>
-  <link rel="stylesheet" href="assets/css/resets.css">
-  <link rel="stylesheet" href="assets/css/screen.css">
+  <link rel="stylesheet" href="css/resets.css">
+  <link rel="stylesheet" href="css/screen.css">
   <script src="js/site.js" async></script>
 </head>
 
