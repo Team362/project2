@@ -50,7 +50,7 @@
           rights of cultural groups?</li>
       </ul>
       <div id="image-crop">
-        <img id="statue" src="img/oriental_statue.webp" alt="cultural diversity and universality">
+        <img id="statue" src="img/oriental_statue.jpg" alt="cultural diversity and universality">
       </div>
       <h4 id="history">History and Goals:</h4>
       <p id="history-txt">
@@ -67,8 +67,8 @@
         interrelations of diverse cultures.
       </p>
       <div id="image-bottom">
-        <img id="monk" src="img/diverse cultures.webp" alt="diverse cultures">
-        <img id="water" src="assets/img/egyption.webp" alt="Egyptian Art and Archaeology">
+        <img id="monk" src="img/diverse cultures.jpg" alt="diverse cultures">
+        <img id="water" src="assets/img/egyption.jpg" alt="Egyptian Art and Archaeology">
       </div>
     </article>
   </main>
