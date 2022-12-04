@@ -6,6 +6,6 @@ function checkRequirements() {
   if ((name == "") && (email == "")) {
     document.getElementById("error").style.display = "block";
   } else {
-    alert("Sign up successful");
+    alert("Sent message succesfully");
   }
 }

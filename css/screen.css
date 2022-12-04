@@ -200,6 +200,10 @@ nav a:hover{
   padding-left: 3em;
 }
 
+#error {
+  color: red;
+}
+
 
 @media screen and (min-width: 650px) {
   nav{
