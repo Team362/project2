@@ -42,8 +42,6 @@
 	<div class="dropdown">
       <div class="dropbtn">Contact Us</div>
       <div class="dropdown-content">
-        <a href="contact-subpage.html">Send us a message</a>
-        <a href="sign-up-subpage.html">Get our newsletter</a>
       </div>
     </div>
   </nav>
