@@ -116,7 +116,7 @@ tr:nth-child(even) {
   padding-right: 1em;
 }
 
-ul{
+#navigation ul{
   display: flex;
   flex-direction: column;
   border: 0;
@@ -203,7 +203,7 @@ footer a img{
 
 
 @media screen and (min-width: 650px) {
-  ul{
+  #navigation ul{
     flex-direction: row;
   }
   #home main{
