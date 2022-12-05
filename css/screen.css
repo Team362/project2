@@ -214,7 +214,7 @@ footer a img{
 }
 
 #table ul {
-  border: solid
+  border: solid;
 }
   
 @media screen and (min-width: 650px) {
@@ -226,6 +226,10 @@ footer a img{
   
   #tableTitle li{
     display: block;
+  }
+  
+  #table ul {
+    border: none;
   }
 }
 
