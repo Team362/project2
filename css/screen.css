@@ -14,7 +14,7 @@ html {
   text-align: center;
 }
 
-nav {
+ul {
   color: #449BBB;
   flex-direction: row;
   background: #EEE;
@@ -116,14 +116,14 @@ tr:nth-child(even) {
   padding-right: 1em;
 }
 
-nav{
+ul{
   display: flex;
   flex-direction: column;
   border: 0;
   background-color: rgba(51, 102, 153, 0.8);
 }
 
-nav a{
+#navigation ul a{
   cursor: pointer;
   color: white;
   display: block;
@@ -203,7 +203,7 @@ footer a img{
 
 
 @media screen and (min-width: 650px) {
-  nav{
+  ul{
     flex-direction: row;
   }
   #home main{
