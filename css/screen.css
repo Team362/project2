@@ -73,13 +73,6 @@ form li {
   height: 6em;
 }
 
-footer {
-  background-color: #336699;
-  color: white;
-  text-align: right;
-  padding: 1em;
-}
-
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
@@ -183,6 +176,10 @@ footer{
   justify-content: center;
   align-items: center;
   gap: 0.6em;
+  background-color: #336699;
+  color: white;
+  text-align: right;
+  padding: 1em;
 }
 
 footer a img{
