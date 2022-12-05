@@ -93,7 +93,7 @@ tr:nth-child(even) {
   word-break: break-word;
 }
 
-#home h2{
+#home h2, #title h2{
   background-color: white;
   color: black;
   display: inline-flex;
