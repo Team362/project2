@@ -133,8 +133,6 @@ tr:nth-child(even) {
 }
 
 #table ul{
-  display: flex;
-  flex-direction: column;
   border: 0;
   background-color: rgba(51, 102, 153, 0.8);
   color: white;
@@ -211,16 +209,29 @@ footer a img{
   color: red;
 }
 
+#tableTitle li{
+    display: none;
+}
 
-@media screen and (min-width: 650px) {
-  #navigation ul{
-    flex-direction: row;
-  }
+#table ul {
+  border: solid
+}
   
+@media screen and (min-width: 650px) {
   #table ul{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto auto;
+  }
+  
+  #tableTitle li{
+    display: block;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  #navigation ul{
+    flex-direction: row;
   }
   
   #home main{
